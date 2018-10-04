@@ -1,0 +1,55 @@
+html {
+   background: #58ACFA;
+}
+
+body {
+    background: #fff;
+    margin: 1em 15em;
+    padding: .1em 4.5em;
+}
+
+h1,h3 {
+    line-height: .2em;
+    text-align: center; 
+	
+}
+h2 {
+
+    line-height: .2em;
+    font-style: oblique;
+    text-align: center;
+}
+
+.datos_personales, .objetivo , .area, .educacion, .experiencia, .concursos, .manejo, .otros, .idioma{
+    text-align: center;
+	font-weight: bold;
+    box-shadow: .1em 0em .1em black;
+}
+.t1, .t2{
+   text-align: justify 
+}
+
+table {
+   width: 100%;
+   border: .4px collapse black;
+}
+th,td{
+   text-align: center;
+   vertical-align: center;
+   border: 1px solid black;
+   
+}
+.c1, .c2, .c3{
+	font-weight: bold;
+	font-size: .9em;
+}
+.td2{
+	border: 0;
+	text-align: left;
+	padding: .1em 2em;
+}
+#image {
+	width: 9em;
+	height: 9em;
+
+}
