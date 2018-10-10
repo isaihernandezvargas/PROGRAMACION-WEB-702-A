@@ -1,0 +1,39 @@
+html {
+   background: #3DC8A2;
+}
+
+body {
+    background: #fff;
+    margin: 1em 14em;
+    padding: .1em 2.5em;
+}
+
+h1 {
+    line-height: .2em;
+    text-align: center; 
+	
+}
+
+
+ .otros{
+    text-align: center;
+	font-weight: bold;
+    box-shadow: .1em 0em .1em black;
+}
+.otros1{
+    text-align: center;
+	font-weight: bold;
+	
+    box-shadow: .1em .1em .1em #C8A63D;
+}
+.t1, .t2{
+   text-align: justify 
+}
+
+
+
+.td2{
+	border: 0;
+	text-align: left;
+	padding: .1em 2em;
+}
