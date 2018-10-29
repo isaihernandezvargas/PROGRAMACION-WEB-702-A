@@ -1,0 +1,440 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.head{
+	background-color:#fff;
+	width:100%;
+	height:90px;
+	display:flex;
+	position: fixed; 
+	
+}
+
+.seccion1{
+	background-color:#fff;
+	display:flex;
+	height:100%;
+	width:45%;
+	
+	
+}
+.logo{
+	margin-left:20%;
+	margin-top:2%;
+}
+.seccion2{
+	background-color:#fff;
+	height:100%;
+	display:flex;
+	width:70%;
+}
+nav{
+	float:right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+nav ul li {
+display: inline-block;
+line-height: 90px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	font-size:15px;
+}
+
+nav ul li a:hover {
+	background: #0b76a6;
+}
+nav ul li a:hover {
+	color: red;
+}
+nav ul li a:visited {
+	color: purple;
+}
+
+.logos{
+	background-color:#fff;
+	margin-left:10%;
+	width:20%;
+	height:50%;
+	
+	
+}
+.iconos{
+	display:flex;
+	justify-content:space-between;
+	margin-top:18%;
+	height:50%;
+	list-style: none;
+}
+.insta,.twiter,.face{
+	width:30px;
+	height: 30px;
+	
+}
+
+.principal{
+	background-color:purple;
+	width:100%;
+	height:790px;
+}
+.slider{
+	overflow:hidden;
+	width:100%;
+}
+.slider ul{
+	display:flex;
+	width:330%;
+	animation:cambio  7s infinite alternate;
+}
+.slider ul li{
+list-style:none;
+width:100%;
+	
+	
+}
+.slider img{
+	width:100%;
+	height:790px;
+}
+@keyframes cambio{
+	
+	0%{margin-left:0%;}
+	30%{margin-left:0%;}
+	35%{margin-left:-115%;}
+	65%{margin-left:-115%;}
+	70%{margin-left:-220%;}
+	100%{margin-left:-220%;}
+	
+}
+.principal1{
+	
+	background-image:url(textura.jpg);
+	width:100%;
+	height:500px;
+	
+}
+.texto1{
+	overflow:hidden;
+	width:80%;
+	height:80%;
+	margin-left:10%;
+	
+}
+.t{
+	margin-left:15%;
+	margin-top:10%;
+	
+	overflow:hidden;
+	width:80%;
+	height:10%;
+	display:flex;
+	
+	
+}
+ .list li{
+	font-family:arial;
+	margin-top:1%;
+	font-size:40px;
+}
+.t p strong{
+	font-family:arial;
+	margin-top:1%;
+	font-size:40px;
+	color:black;
+}
+.list{
+	margin-left:1%;
+	list-style:none;
+	background-color: #F8F9F9;
+	animation: cambio2 4s infinite alternate;
+}
+@keyframes cambio2{
+	0%{margin-top:-.5%;}
+	65%{margin-top:-.5%;}
+	70%{margin-top:-6.2%;}
+	100%{margin-top:-6.2%;}
+}
+
+.d{
+	margin-top:1%;
+	font-family:arial;
+	font-size:25px;
+	text-align:justify;
+}
+
+.B{
+	background-color:#D98880;
+	width:100%;
+	height:80px;
+}
+.B p{
+	margin-left:40%;
+	font-size:60px;
+	font-family:arial;
+	font-weight:bold;
+	
+}
+
+.Menu-container{
+  width: 100%; /*100%*/
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  width: 100%;
+  color: #fff;
+  background-color: #272831;  /* Negro-gris */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+/*los hijos de .Menu-container abarcan todo lo ancho
+los nietos abarcan solo el ancho que se le de*/
+.Formato-Conteiner{
+  height: 600px;
+   background-color:#F8F9F9 ;;
+  display: flex;
+  justify-content: center; /*toda la caja amarila en el centro de pagina*/
+}
+
+.parte1 {
+  //border: 1px solid #fff;  /* For debugging */
+  
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-texto{
+  width: 900px;
+  color: #fff;              /*color de letra*/
+  background-color: #DEDB06;  /* amarillo */
+  display: flex;
+  flex-wrap: wrap;             /*todos los bloque que no alcanzan en horizontal los coloca abajo*/
+}
+.titulo{
+  height: 50px;
+  width: 900px;
+  color: #1B2631;
+  background-color:  #F8F9F9;  /*rojo*/
+ 
+  display: flex;
+  justify-content: center; /*centrado a lo ancho*/
+  align-items: center; /*centrado conforme a lo alto*/
+}
+
+.SI{
+  height: 275px;
+  width: 450px;
+  background-color: #F9E79F; /*amarillo*/
+  display: flex;
+}
+
+.SD{
+  height: 275px;
+  width: 450px;
+  padding: 20px;
+  color: #1B2631;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.II{
+  height: 275px;
+  width: 450px;
+  background-color: #5DADE2; /*azulito*/
+  display: flex;
+}
+
+.ID{
+  height: 275px;
+  width: 450px;
+  padding: 20px;
+  color: #1B2631;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify
+}
+
+.Comidas{
+  width: 900px;
+  color: #fff;              /*color de letra*/
+  background-color: #45B39D;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Pos1{
+  width: 900px;
+  color: #fff;              /*color de letra*/
+  background-color: #466016;  /* verde apagado */
+  display: flex;
+}
+
+.Vin1{
+  width: 900px;
+  color: #fff;              /*color de letra*/
+  background-color: #F5B041;
+  display: flex;
+}
+/*TExto*/
+.intro{
+  display: flex;
+  justify-content: center;
+  
+}
+h1 {
+  text-shadow: 1px 1px #ff20;
+  text-align: center;
+  
+}
+h2{
+  text-shadow: 1px 1px #ff20;
+  text-align: left;
+  font-size:35px;
+  
+}
+
+.article-image {
+  float: left;
+  height: 275px;
+  width: 450px;
+}
+.proco{
+	width:100%;
+	height:2420px;
+	background-color:#F8F9F9 ;
+	
+}
+.footer{
+	width:100%;
+	height:1000px;
+	background-color:#F8F9F9;
+	
+}
+hr {
+background-color: red;
+height: 1px;
+margin-left: 0%;
+width: 100%;
+}
+h3{
+	background-color: #F8F9F9;
+	text-align: center;
+	font-size:30px;
+	color:red;
+}
+.contorno{
+	color:#B01012;
+	background-color:#F8F9F9;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	overflow: hidden;
+}
+.mapa{
+	float:center;
+	width: 1100px;
+	height: 450px;
+	margin-top: 20px;
+}
+.contactanos{
+	background-color:#F4F6F6;
+	max-width: 1300px;
+	max-height: 620px;
+	overflow: hidden;
+	display: flex;
+	justify-content:space-around;
+}
+.cajas{
+	background-color: red;
+	float:left;
+}
+/* -------Inicio Formulario------*/
+form {
+    width: 500px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #B01012;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    font: 2em sans-serif;
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 4em;
+    resize: vertical;
+}
+.button {
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    margin-left: .5em;
+    color:#B01012;
+}
+/*----------End Formulario----------*/
+
+/*formato del cuadro amarillo*/
+.texto{
+	border-radius: 20px;
+	width:500px;
+	height: 380px;
+	background-color:#ffffbf;
+}
+/*Pinta de color rojo las letras del cuadro amarillo*/
+.txt_vino{
+	font-style: italic;
+	font-size: 100%;
+	color:#FF0000;
+}
+.texto p{
+	font-family: Verdana;
+}
+/*clase para final de la pagina*/
+.creditos{
+	background-image: url(fondo.jpg);
+	overflow: hidden;
+	color: #EEE28F;
+}
+/*  clase para las imagenes chicas al final de la pagina*/
+.image{
+	border-radius: 20px;
+	float: right;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
